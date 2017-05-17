@@ -1,0 +1,66 @@
+/*body {
+  border: 1px solid black;
+}*/
+
+h1.title {
+  color: black;
+  font-family: "Open Sans", arial, 'Apple SD Gothic Neo', 'Noto Sans CJK KR', '본고딕', 'KoPubDotum Medium', '나눔바른고딕', '나눔고딕', 'NanumGothic', '맑은고딕', 'Malgun Gothic', sans-serif;
+}
+.modified-date {
+  text-align: right;
+  font-family: "Open Sans", arial, 'Apple SD Gothic Neo', 'Noto Sans CJK KR', '본고딕', 'KoPubDotum Medium', '나눔바른고딕', '나눔고딕', 'NanumGothic', '맑은고딕', 'Malgun Gothic', sans-serif;
+}
+.box1 {
+  border: 1px solid gray;
+    border-top: 5px solid orange;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.box1 img.lock {
+  height: 20px;
+}
+
+table {
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  text-align: center;
+  width: 700px;
+  margin: 10px auto;
+  table-layout: fixed;
+
+
+
+}
+table tr td {
+  border: 1px solid #dddddd;
+
+  /*border-collapse: collapse;*/
+}
+.president {
+  background-color: #000034;
+  color: white;
+}
+.pres-number {
+  background-color: #f5f5f5;
+
+}
+.photo img {
+  border: 1px auto;
+  padding: 5px auto;
+  width: 450px;
+
+}
+.star {
+  width: 25px;
+}
+
+.chart {
+  width: 500px;
+}
+
+.chart td:first-child {
+  background-color: #000034;
+  color: white;
+  }

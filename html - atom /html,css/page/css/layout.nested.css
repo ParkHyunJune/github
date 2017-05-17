@@ -1,0 +1,156 @@
+.top-notice {
+  background-image: url("http://www.wisdo.me/resources/p/index/img/eventNotice/161202_topNotice.png");
+  height: 18px;
+  width: 1440px;
+  padding: 10px 0;
+  text-align: center; }
+  .top-notice a {
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    height: 100%; }
+
+.top-content {
+  background-image: url("http://www.wisdo.me/resources/p/index/img/index_20160727.png");
+  background-position: center 96%;
+  background-attachment: fixed;
+  text-align: center;
+  background-size: cover;
+  padding-top: 38px;
+  height: 550px; }
+  .top-content .container {
+    height: 550px;
+    margin: 0 135px;
+    box-sizing: border-box; }
+  .top-content img.menu-logo {
+    width: 80px;
+    height: auto;
+    margin-right: 30px; }
+  .top-content li {
+    display: inline-block; }
+  .top-content .content-list-left {
+    float: left; }
+    .top-content .content-list-left li {
+      padding-right: 15px;
+      font-size: 16px; }
+      .top-content .content-list-left li.inline {
+        position: relative;
+        right: 10px;
+        bottom: 20px; }
+  .top-content .content-list-right {
+    margin-top: 20px;
+    float: right; }
+    .top-content .content-list-right li {
+      padding-right: 15px;
+      font-size: 12px; }
+  .top-content .content-list-right-box {
+    margin-top: 15px;
+    padding: 5px 10px;
+    float: right;
+    border: 2px solid #fff;
+    font-size: 12px; }
+  .top-content .clear {
+    clear: both;
+    height: 80px; }
+  .top-content .massage {
+    height: 90px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #fff; }
+  .top-content .counting {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff; }
+  .top-content .count {
+    margin-right: 5px; }
+  .top-content .clear1 {
+    height: 50px; }
+  .top-content .col {
+    float: left;
+    margin-left: 33%;
+    width: 33%; }
+  .top-content .guide-box {
+    height: 79px;
+    width: 100%;
+    padding: 10px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    box-sizing: border-box; }
+    .top-content .guide-box .btn {
+      background-color: #f15f4e;
+      border: 1px solid #f15f4e;
+      padding: 5px 10px;
+      font-size: 12px;
+      line-height: 1.5;
+      display: inline-block;
+      margin-top: 7px; }
+  .top-content .containter {
+    height: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+  .top-content .clear2 {
+    height: 30px; }
+  .top-content .content-bottom {
+    width: 1160px;
+    height: 156px;
+    box-sizing: border-box; }
+
+li.box-unit {
+  float: left;
+  width: 270px;
+  height: 134px;
+  margin: 0 20px 20px 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #ddd; }
+  li.box-unit .bu1 {
+    padding: 48px 0;
+    width: 50%;
+    position: relative;
+    bottom: 17px; }
+    li.box-unit .bu1 a.a1 {
+      font-size: 11px;
+      color: #333; }
+    li.box-unit .bu1 a.a2 {
+      margin-top: 2px;
+      font-size: 13px;
+      color: #333;
+      font-weight: 600; }
+  li.box-unit img.bu2 {
+    position: relative;
+    left: 69px;
+    bottom: 163px;
+    height: 130px; }
+
+.bottom-row {
+  width: 1160px;
+  height: 221px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  font-weight: 600; }
+  .bottom-row .b-row {
+    float: left;
+    margin-right: 20px;
+    width: 366px;
+    height: 200px;
+    box-sizing: border-box; }
+    .bottom-row .b-row .photo1 {
+      background-image: url("http://wisdo.me/addon/wisdome/21129/photo-title?width=300&height=150"); }
+    .bottom-row .b-row .photo2 {
+      background-image: url("http://www.wisdo.me/addon/wisdome/21096/photo-title?width=300&height=150"); }
+    .bottom-row .b-row .photo3 {
+      background-image: url("http://www.wisdo.me/addon/wisdome/21215/photo-title?width=300&height=150"); }
+    .bottom-row .b-row span {
+      color: #fff;
+      border-top: 30px;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 5px;
+      font-size: 14px; }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <form action="">
+    <!-- input#Username[type=text] -->
+    <input type="text" name="Username"><br>
+    <input type="password" name="password">
+    <input type="radio" name="radio"><br>
+    <input type="checkbox" name="checkbox"><br>
+    <input type="button"><br>
+    <input type="file" name="file">
+    <input type="submit"><br>
+    <input type="reset">
+    <input type="hidden" name="hidden" value="hiddenValue"><br>
+  </form>
+
+  <h3>Radio</h3>
+  <form action="">
+    <input type="radio" name="radio-name" Value="a">
+    <input type="radio" name="radio-name" Value="b">
+    <button type="submit">전송</button>
+  </form>
+
+  <h3>Label</h3>
+  <form action="">
+    <div>
+      <label>ID<input type="text"></label>
+    </div>
+    <div>
+      <label for="usename">Username</label>
+      <input type="text">
+    </div>
+  </form>
+
+  <h3>select</h3>
+  <select name="number" id="">
+    <!-- option[value=$]*4 -->
+    <option value="1">First</option>
+    <option value="2">Second</option>
+    <option value="3">Third</option>
+    <option value="4">Fourth</option>
+  </select>
+
+  <h3>select - optgroup</h3>
+  <select name="optgroup-select" id="">
+    <!-- (optgroup[label=]>(option[value=]*3))*2 -->
+    <optgroup label="Fruits">
+      <option value="1">Apple</option>
+      <option value="2">Banana</option>
+      <option value="3">Orange</option>
+    </optgroup>
+    <optgroup>
+      <option value="1">Red</option>
+      <option value="2">Blue</option>
+      <option value="3">Green</option>
+    </optgroup>
+  </select>
+
+  <h3>fieldset</h3>
+  <form action="">
+    <fieldset>
+      <legend>Login</legend>
+        <lavel>uesrname : <input type:"text"></lavel>
+        <label>password : <input type:"password"></label>
+        </fieldset>
+      </body>
+      </html>

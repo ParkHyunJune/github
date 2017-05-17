@@ -1,0 +1,222 @@
+@import 'variables';
+
+.top-notice {
+  background-image: url("http://www.wisdo.me/resources/p/index/img/eventNotice/161202_topNotice.png");
+  height: 18px;
+  width: 1440px;
+  padding: 10px 0;
+  text-align: center;
+
+  a {
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.top-content {
+  background-image: url("http://www.wisdo.me/resources/p/index/img/index_20160727.png");
+  background-position: center 96%;
+  background-attachment: fixed;
+  text-align: center;
+  background-size: cover;
+  padding-top: 38px;
+  height: 550px;
+
+  .container {
+    height: 550px;
+    margin: 0 135px;
+    box-sizing: border-box;
+  }
+
+  img.menu-logo {
+    width: 80px;
+    height: auto;
+    margin-right: 30px;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  .content-list-left {
+    float: left;
+
+    li {
+      padding-right: 15px;
+      font-size: 16px;
+
+      &.inline {
+        position: relative;
+        right: 10px;
+        bottom: 20px;
+      }
+    }
+  }
+
+  .content-list-right {
+    margin-top: 20px;
+    float: right;
+
+    li {
+      padding-right: 15px;
+      font-size: 12px;
+    }
+  }
+
+  .content-list-right-box {
+    margin-top: 15px;
+    padding: 5px 10px;
+    float: right;
+    border: 2px solid #fff;
+    font-size: 12px;
+  }
+
+  .clear {
+    clear: both;
+    height: 80px;
+  }
+
+  .massage {
+    height: 90px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: $color-text-common;
+  }
+
+  .counting {
+    margin-top: 20px;
+    font-size: 16px;
+    color: $color-text-common;
+  }
+
+  .count {
+    margin-right: 5px;
+  }
+
+  .clear1 {
+    height: 50px;
+  }
+
+  .col {
+    float: left;
+    margin-left: 33%;
+    width: 33%;
+  }
+
+  .guide-box {
+    height: 79px;
+    width: 100%;
+    padding: 10px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 13px;
+    font-weight: 600;
+    color: $color-text-common;
+    box-sizing: border-box;
+
+    .btn {
+      background-color: rgb(241,95,78);
+      border: 1px solid rgb(241,95,78);
+      padding: 5px 10px;
+      font-size: 12px;
+      line-height: 1.5;
+      display: inline-block;
+      margin-top: 7px;
+    }
+  }
+
+  .containter {
+    height: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .clear2 {
+    height: 30px;
+  }
+
+  .content-bottom {
+    width: 1160px;
+    height: 156px;
+    box-sizing: border-box;
+  }
+}
+
+li.box-unit {
+  float: left;
+  width: 270px;
+  height: 134px;
+  margin: 0 20px 20px 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #ddd;
+
+  .bu1 {
+    padding: 48px 0;
+    width: 50%;
+    position: relative;
+    bottom: 17px;
+
+    a.a1 {
+      font-size: 11px;
+      color: #333;
+    }
+
+    a.a2 {
+      margin-top: 2px;
+      font-size: 13px;
+      color: #333;
+      font-weight: 600;
+    }
+  }
+
+  img.bu2 {
+    position: relative;
+    left: 69px;
+    bottom: 163px;
+    height: 130px;
+  }
+}
+
+.bottom-row {
+  width: 1160px;
+  height: 221px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+
+  .b-row {
+    float: left;
+    margin-right: 20px;
+    width: 366px;
+    height: 200px;
+    box-sizing: border-box;
+
+    .photo1 {
+      background-image: url("http://wisdo.me/addon/wisdome/21129/photo-title?width=300&height=150");
+    }
+
+    .photo2 {
+      background-image: url("http://www.wisdo.me/addon/wisdome/21096/photo-title?width=300&height=150");
+    }
+
+    .photo3 {
+      background-image: url("http://www.wisdo.me/addon/wisdome/21215/photo-title?width=300&height=150");
+    }
+
+    span {
+      color: #fff;
+      border-top: 30px;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 5px;
+      font-size: 14px;
+    }
+  }
+}

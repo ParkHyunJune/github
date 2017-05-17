@@ -1,0 +1,11 @@
+.clearfix:after { content: " "; display: block; clear: both; }
+
+a { text-decoration: none; }
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select, figure, figcaption, address { margin: 0; padding: 0; }
+
+ul, ol, li { list-style: none; }
+
+body { line-height: 1.41; font-size: 19px; color: #666; font-weight: 400; }
+
+div { display: block; }

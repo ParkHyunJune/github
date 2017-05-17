@@ -1,0 +1,72 @@
+html {
+  font-size: 16px;
+}
+body {
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0.7rem;
+}
+.modified-date {
+  text-align: right;
+}
+.link-container * {
+  vertical-align: middle;
+}
+.link-container img.arrow {
+  height: 22px;
+}
+.link-container {
+  margin-bottom: 20px;
+}
+table.wiki-table {
+  max-width: : 600px;
+  margin: 0 auto;
+  border: 2px solid #b38b6e;
+  border-collapse: collapse;
+}
+table.wiki-table tr td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: center;
+}
+table.wiki-table td img {
+  max-width: 100%;
+}
+table.wiki-table tr td:nth-child(1) {
+  background-color: #b38b6e;
+  color: white;
+}
+table.wiki-table tr td:nth-child(2) {
+  white-space: pre-line;
+}
+table.wiki-table tr:nth-child(1) td {
+  background-color: white;
+}
+
+table.wiki-table tr td img {
+  max-width: 100%;
+}
+table.wiki-table {
+  margin-bottom: 60px;
+}
+.table-of-contents {
+    border: 1px solid #ccc;
+    padding: 12px 20px 18px 0px;
+    margin-left: 5px;
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+}
+h2 {
+      margin: 1.2em 0 0.8em 0;
+      font-family: "Open Sans", arial, 'Apple SD Gothic Neo', 'Noto Sans CJK KR', '본고딕', 'KoPubDotum Medium', '나눔바른고딕', '나눔고딕', 'NanumGothic', '맑은고딕', 'Malgun Gothic', sans-serif;
+}
+.blockquote {
+  white-space: pre-line;
+  line-height: 1.3rem;
+  border: 2px dashed #ccc;
+  border-left: 5px solid #71BC6D
+  margin-top: 60px;
+}
+.blockquote p {
+  margin: 0;
+}
